@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: grey;
+  color: white;
+
+.header,.footer{
+  display: flex;
+  & > *{
+    margin: auto;
+  }
+
+}
+.header {
+background: orange;
+width: 100vw;
+height: 15vh;
+}
+
+.content{
+  width: 100vw;
+  height: 70vh;
+  display: inline-table;
+  flex-direction: row;
+}
+
+.footer{
+background: purple;
+width: 100vw;
+height: 15vh;
+}
+
+}
